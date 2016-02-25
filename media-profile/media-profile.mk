@@ -15,7 +15,11 @@ endif
 
 #for mx6x, it should be up to 1080p profile
 ifeq ($(BOARD_SOC_TYPE),IMX6DQ)
+ifeq ($(TARGET_BOOTLOADER_BOARD_NAME), MS600)
+LOCAL_SRC_FILES := media_profiles_ms600.xml
+else
 LOCAL_SRC_FILES := media_profiles_1080p.xml
+endif
 endif
 
 ifeq ($(BOARD_HAVE_USB_CAMERA),true)

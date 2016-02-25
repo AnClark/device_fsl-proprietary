@@ -17,7 +17,6 @@
             <Camera previewFrameRate="30" />
 			<EncoderOutputFileFormat name="mp4" />
 	   </EncoderProfile>
-
        <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="3000000"
@@ -49,7 +48,6 @@
         <Camera previewFrameRate="30" />
 		<EncoderOutputFileFormat name="3gp" />
         </EncoderProfile>
-
         <EncoderProfile quality="timelapse1080p" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="8000000"
@@ -65,7 +63,6 @@
             <Camera previewFrameRate="30" />
 			<EncoderOutputFileFormat name="mp4" />
 	   </EncoderProfile>
-
         <EncoderProfile quality="timelapse720p" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="3000000"
@@ -106,11 +103,12 @@
     </CamcorderProfiles>
 
     <CamcorderProfiles cameraId="1">
+<!--
         <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="3000000"
-                   width="1280"
-                   height="720"
+                   width="720"
+                   height="1280"
                    frameRate="30" />
 
             <Audio codec="aac"
@@ -121,28 +119,28 @@
             <Camera previewFrameRate="30" />
 			<EncoderOutputFileFormat name="mp4" />
 	   </EncoderProfile>
-
-        <EncoderProfile quality="480p" fileFormat="3gp" duration="30">
-            <Video codec="h263"
+-->
+        <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
+            <Video codec="h264"
                    bitRate="2000000"
-                   width="720"
-                   height="480"
+                   width="480"
+                   height="640"
                    frameRate="30" />
 
-            <Audio codec="amrnb"
-                   bitRate="12200"
-                   sampleRate="8000"
+            <Audio codec="aac"
+                   bitRate="96000"
+                   sampleRate="44100"
                    channels="1" />
 
         <Camera previewFrameRate="30" />
-		<EncoderOutputFileFormat name="3gp" />
+		<EncoderOutputFileFormat name="mp4" />
         </EncoderProfile>
-
+<!--
        <EncoderProfile quality="timelapse720p" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="3000000"
-                   width="1280"
-                   height="720"
+                   width="720"
+                   height="1280"
                    frameRate="30" />
 
             <Audio codec="aac"
@@ -153,21 +151,21 @@
             <Camera previewFrameRate="30" />
 			<EncoderOutputFileFormat name="mp4" />
 	   </EncoderProfile>
-
-        <EncoderProfile quality="timelapse480p" fileFormat="3gp" duration="30">
-            <Video codec="h263"
+-->
+        <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="30">
+            <Video codec="h264"
                    bitRate="2000000"
-                   width="720"
-                   height="480"
+                   width="480"
+                   height="640"
                    frameRate="30" />
 
-            <Audio codec="amrnb"
-                   bitRate="12200"
-                   sampleRate="8000"
+            <Audio codec="aac"
+                   bitRate="96000"
+                   sampleRate="44100"
                    channels="1" />
 
         <Camera previewFrameRate="30" />
-		<EncoderOutputFileFormat name="3gp" />
+		<EncoderOutputFileFormat name="mp4" />
         </EncoderProfile>
 
 
